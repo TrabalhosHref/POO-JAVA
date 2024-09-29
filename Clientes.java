@@ -4,8 +4,6 @@ package com.mycompany.controledevendasnobd;
 public class Clientes {
     private String nome_cliente;
     
-    public Clientes(){
-    }
     public String getNome(){
     return nome_cliente;}
     
