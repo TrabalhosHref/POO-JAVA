@@ -11,9 +11,7 @@ package com.mycompany.controledevendasnobd;
 public class Produtos {
     private String nome_produto;
     private float preco;
-    
-    public Produtos(){
-    }
+
 
     public String getNome_produto() {
         return nome_produto;
