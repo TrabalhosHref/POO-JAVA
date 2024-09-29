@@ -7,9 +7,6 @@ public class Vendas {
     private String nome_produto;
     private float preco_produto;
     private float valor_final;
-    
-    public Vendas(){
-    }
 
     public String getNome_cliente() {
         return nome_cliente;
