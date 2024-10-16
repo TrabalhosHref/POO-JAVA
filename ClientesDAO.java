@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class ClientesDAO {
     
     public void cadastrarCliente(Clientes cliente){
-        String sql1 = "INSERT INTO CLIENTES(NOME) VALUES = ?";
+        String sql1 = "INSERT INTO CLIENTES(NOME) VALUES ?";
         
         PreparedStatement prepararQuery;
         
